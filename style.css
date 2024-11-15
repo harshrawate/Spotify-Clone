@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    height: 100vh;
+    
+}
+.sidebar{
+    background-color: black;
+    
+    width: 280px;
+    
+   
+}
+
+
+.nav{
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    font-weight: 530;
+    height: 90px;
+    line-height: 1.2rem;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    
+   
+
+
+}
+.nav p{
+    font-size: 1rem;
+}
+.nav p i{
+    font-size: 1.2rem;
+    margin: 0rem 1rem;
+}
+#se{
+    opacity: 0.7;
+}
+#se:hover{
+    opacity: 1;
+}
+.library{
+    background-color: #121212;
+    height: 525px;
+  
+    color: white;
+    
+}
+.name{
+    padding: 1rem 1rem 0.7rem 2rem ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    opacity: 0.7;
+    font-weight: 530;
+}
+.name img{
+    height: 1.2rem;
+    margin-right: 1rem;
+   
+}
+.plus{
+    padding-top: 0.4rem;
+}
+.name:hover{
+    opacity: 1;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.1);
+   
+    border-radius: 0.8rem;
+    margin: 1.2rem 0.6rem;
+    padding: 1rem;
+    font-weight: 510;
+  
+}
+.one{
+    font-size: 0.9rem;
+}
+.two{
+    font-size: 0.8rem;
+}
+.create{
+    padding: 0.6rem 1.4rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    border: none;
+    font-weight: 700;
+    font-style: bold;
+    margin-top: 0.7rem;
+}
+.main-content{
+    background-color: black;
+    height: 100vh;
+    flex: 1;
+    overflow: auto;
+    z-index: 1;
+   
+    
+}
+.main-box{
+    background-color: #121212;
+    margin-left: 0.5rem;
+   
+
+}
+.sticky{
+    height: 3rem;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1rem 1.2rem;
+   
+    
+    
+}
+.left-arrow{
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    background-color: black;
+}
+.left-arrow img{
+    height: 1.2rem;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    opacity: 0.6;
+}
+.many .download{
+    background-color: black;
+    color: white;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    transition: 0.10s;
+    
+}
+.download:hover{
+  font-size: 1.1rem;
+}
+.download i{
+    margin-right: 0.5rem;
+}
+.bell{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding-top: 0.2rem;
+    border: none;
+    font-size: 1.2rem;
+    position: relative;
+    top: 0.1rem;
+   margin-left: 0.3rem;
+   
+    
+}
+.bell i{
+    opacity: 0.6;
+}
+.bell i:hover{
+    opacity: 1;
+}
+.user{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border: none;
+    font-size: 1.2rem;
+    position: relative;
+    top: 0.1rem;
+    margin-left: 0.3rem;
+   
+    
+   
+}
+.con{
+    padding: 0 1.1rem;
+}
+.con h2{
+    color: white;
+    padding-left: 0.4rem;
+    margin-top: 0rem;
+    
+
+}
+.card{
+    width: 200px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.8rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.card .photo img{
+    height: 12.5rem;
+    border-radius: 0.8rem;
+}
+.names{
+    color: white;
+   font-size: 1rem;
+   
+}
+.info{
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.con2{
+    display: flex;
+    padding: 0 1.1rem;
+    flex-wrap: wrap;
+}
+.card:hover{
+    background-color: rgba(255, 255, 255,0.1);
+}
+.spo{
+    color: white;
+    padding-left: 0.4rem;
+}
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    
+    width: 100%;
+   
+    height: 72px;
+    z-index: 10;
+}      
+.album{
+    width: 30%;
+    height: 4.5rem;
+    background-color: black;
+}
+.controler{
+    width: 40%;
+    height: 4.5rem;
+    background-color: black;
+}
+.range{
+    width: 30%;
+    height: 4.5rem;
+   background-color: black;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   color: white;
+
+ 
+}
+
+.pho img{
+   height: 3.5rem;
+   width: 3.5rem;
+   padding: 0.7rem;
+   border-radius: 1rem;
+}
+
+   
+.inst{
+    color: white;
+   
+}
+.na{
+    font-size: 0.9rem;
+    line-height: 0.5rem;
+    margin-top: 1.5rem;
+}
+.album{
+    display: flex;
+}
+.heart{
+    color: white;
+    opacity: 0.5;
+    margin-left:1.2rem ;
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}
+.p1{
+    font-weight: 500;
+}
+.p2{
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+.p1:hover{
+    text-decoration: underline;
+}
+.p2:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.heart:hover{
+    opacity: 1;
+}
+.d1{
+    opacity: 0.5;
+}
+.d2{
+    opacity: 0.5;
+}
+.d3{
+    opacity: 0.5;
+}
+.d4{
+    opacity: 0.5;
+}
+.d5{
+    opacity: 0.5;
+}
+
+
+.d1:hover{ opacity: 1;
+    
+}
+.d2:hover{ opacity: 1;
+    
+}
+.d3:hover{ opacity: 1;
+    
+}
+.d4:hover{ opacity: 1;
+    
+}
+.d5:hover{ opacity: 1;
+    
+}
+.footer{
+    border-top: 0.2px solid white;
+    width: 90%;
+    height: 20rem;
+    margin-top: 5rem;
+    margin-left: 4.1rem;
+    opacity: 0.4;
+    
+    
+}
+.contro{
+    display: flex;
+    justify-content: center;
+}
+.b1 img{
+    height: 1rem;
+    margin: 1rem 0.9rem;
+    opacity: 0.8;
+}
+#big img{
+    height: 2rem;
+    margin:0.4rem 0.9rem ;
+    /* transition: all 0.1s linear; */
+}
+.b1 img:hover{
+    opacity: 1;
+}
+#big img:hover{
+    height:2.2rem ;
+    margin: 0.5rem 1rem;
+}
+.range2{
+    text-align: center;
+   
+   
+  
+}
+.range2 span{
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    opacity: 0.8;
+   
+}
+.range2 span:hover{
+    opacity: 1;
+}
+.copy{
+    color: white;
+    width: 100%;
+    height: 6rem;
+    border-bottom: 2px solid gray;
+    padding-left: 71%;
+    opacity: 0.5;
+}
+
